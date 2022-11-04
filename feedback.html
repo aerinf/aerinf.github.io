@@ -19,12 +19,17 @@
     </div>
     <h1>Feedback</h1>
     <form>
-        <input type="radio" id="html" name="fav_language" value="HTML">
-        <label for="html">HTML</label><br>
+
+        <label for="number">Rate my website from 1-10</label><br/>
+        <input type="number" id="number" name="number" min="1" max="10"><br/><br/>
+
+        <label for="info">Is there any feedback you'd like to share?</label>
+        <br/><textarea id="info" name="info"></textarea><br/><br/>
+
+        <label for="email">Enter your email here if you'd like me to get back to you:</label><br/>
+        <input type="email" id="email" name="email"><br/><br/>
+        
         <input type="submit" value="Submit">
-        <p>Rate my website! 1-10</p>
-        <p>1 2 3 4 5 6 7 8 9</p>
-        <input type="radio" /><input type="radio" /><input type="radio" /><input type="radio" />
     </form>
 </body>
 </html>
