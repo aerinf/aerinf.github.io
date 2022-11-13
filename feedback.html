@@ -11,17 +11,17 @@
     <title>Feedback</title>
 </head>
 <body>
-    <div class="container">
+    <nav>
         <div class="page"><a href="index.html">Home</a></div>
         <div class="page"><a href="advice.html">Advice</a></div>
         <div class="page"><a href="locations.html">Locations</a></div>
-        <div class="page"><a href="tech.html">Reasons to Love Tech</a></div>
-    </div>
+    </nav>
+    <div class="main">
     <h1>Feedback</h1>
     <form>
 
         <label for="number">Rate my website from 1-10</label><br/>
-        <input type="number" id="number" name="number" min="1" max="10"><br/><br/>
+        <input type="number" id="number" name="number" min="1" max="10" required><br/><br/>
 
         <label for="info">Is there any feedback you'd like to share?</label>
         <br/><textarea id="info" name="info"></textarea><br/><br/>
@@ -31,5 +31,6 @@
         
         <input type="submit" value="Submit">
     </form>
+</div>
 </body>
 </html>
