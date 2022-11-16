@@ -144,7 +144,8 @@ td {
         margin-right:2%;
     }
     #footer {
-        width:100%;
+        width:98%;
+        height: 40px;
     }
     img {
        width: 100%;
